@@ -37,18 +37,20 @@ namespace fukuv0519
             if (label1.Visible == true)//表示されている場合
             {
                 button4.BackColor = Color.Yellow;
+                button4.ForeColor = Color.Black;
                 label1.Visible = false;
             }
             else//されていない場合
             {
                 button4.BackColor = Color.Green;
+                button4.ForeColor = Color.White;
                 label1.Visible = true;
             }
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            label1.Visible = false;
+            label1.Text = "ボタンを押すと消えるよ"; "
         }
 
         private void button6_Click(object sender, EventArgs e)

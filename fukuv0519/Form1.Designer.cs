@@ -48,7 +48,7 @@ namespace fukuv0519
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(312, -1);
+            this.button2.Location = new System.Drawing.Point(183, -1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(347, 116);
             this.button2.TabIndex = 1;
@@ -58,9 +58,9 @@ namespace fukuv0519
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(325, 168);
+            this.button3.Location = new System.Drawing.Point(257, 168);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(39, 46);
+            this.button3.Size = new System.Drawing.Size(185, 46);
             this.button3.TabIndex = 2;
             this.button3.Text = "上";
             this.button3.UseVisualStyleBackColor = true;
@@ -68,9 +68,9 @@ namespace fukuv0519
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(148, 205);
+            this.button4.Location = new System.Drawing.Point(289, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 102);
+            this.button4.Size = new System.Drawing.Size(111, 29);
             this.button4.TabIndex = 3;
             this.button4.Text = "ボタン";
             this.button4.UseVisualStyleBackColor = false;
@@ -79,7 +79,7 @@ namespace fukuv0519
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(374, 238);
+            this.label1.Location = new System.Drawing.Point(348, 298);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 15);
             this.label1.TabIndex = 4;
@@ -91,10 +91,10 @@ namespace fukuv0519
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(768, 346);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
