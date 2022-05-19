@@ -29,7 +29,7 @@ namespace fukuv0519
 
         private void button3_Click(object sender, EventArgs e)
         {
-            button3.Top = 20;
+            button3.Top = Top;
         }
 
         private void button4_Click(object sender, EventArgs e)

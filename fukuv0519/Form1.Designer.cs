@@ -79,7 +79,7 @@ namespace fukuv0519
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(303, 292);
+            this.label1.Location = new System.Drawing.Point(374, 238);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 15);
             this.label1.TabIndex = 4;
