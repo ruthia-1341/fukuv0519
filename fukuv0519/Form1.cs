@@ -34,12 +34,12 @@ namespace fukuv0519
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (label1.Visible == true)
+            if (label1.Visible == true)//表示されている場合
             {
                 button4.BackColor = Color.Yellow;
                 label1.Visible = false;
             }
-            else
+            else//されていない場合
             {
                 button4.BackColor = Color.Green;
                 label1.Visible = true;
