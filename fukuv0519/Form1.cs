@@ -50,7 +50,7 @@ namespace fukuv0519
 
         private void label1_Click(object sender, EventArgs e)
         {
-            label1.Text = "ボタンを押すと消えるよ"; "
+            label1.Text = "ボタンを押すと消えるよ"; 
         }
 
         private void button6_Click(object sender, EventArgs e)
