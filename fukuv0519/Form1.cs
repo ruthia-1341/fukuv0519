@@ -31,5 +31,29 @@ namespace fukuv0519
         {
             button3.Top = 20;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (label1.Visible == true)
+            {
+                button4.BackColor = Color.Yellow;
+                label1.Visible = false;
+            }
+            else
+            {
+                button4.BackColor = Color.Green;
+                label1.Visible = true;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
