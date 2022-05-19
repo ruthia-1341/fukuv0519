@@ -17,5 +17,19 @@ namespace fukuv0519
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "堀 朱莉";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Top = 20;
+        }
     }
 }
